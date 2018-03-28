@@ -54,6 +54,7 @@ user_response = gets.chomp
 
   while user_response != "exit"
     break if user_response == "exit"
+          end 
 
     if user_response == "help"
       help
