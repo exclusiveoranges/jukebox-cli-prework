@@ -47,16 +47,14 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
+def run(songs)
 help
 puts "Please enter a command:"
 user_response = gets.chomp
 
   while user_response != "exit"
-    exit_jukebox
-  end
+    break if user_response == "exit"
 
-  until user_response == "exit"
     if user_response == "help"
       help
     end
