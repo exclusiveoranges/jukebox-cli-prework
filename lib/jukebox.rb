@@ -67,6 +67,7 @@ user_response = gets.chomp
       play(songs)
     end
     if user_response == "exit"
+        exit_jukebox
         break
     end
   end
