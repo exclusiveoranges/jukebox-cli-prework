@@ -52,7 +52,7 @@ help
 puts "Please enter a command:"
 user_response = gets.chomp
 
-  if user_response == "exit"
+  while user_response != "exit"
     exit_jukebox
   end
 
