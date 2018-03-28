@@ -54,7 +54,7 @@ user_response = gets.chomp
 
   while user_response != "exit"
     break if user_response == "exit"
-          end 
+          end
 
     if user_response == "help"
       help
@@ -66,4 +66,3 @@ user_response = gets.chomp
       play(songs)
     end
   end
-end
