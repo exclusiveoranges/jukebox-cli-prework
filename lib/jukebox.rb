@@ -52,7 +52,7 @@ help
 puts "Please enter a command:"
 user_response = gets.chomp
 
-  while user_response != "exit" do 
+  while user_response != "exit" do
     break if user_response == "exit"
           end
 
@@ -65,4 +65,5 @@ user_response = gets.chomp
     if user_response == "play"
       play(songs)
     end
+  end
 end
