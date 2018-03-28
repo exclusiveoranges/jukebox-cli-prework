@@ -66,3 +66,4 @@ user_response = gets.chomp
       play(songs)
     end
   end
+end 
