@@ -52,9 +52,10 @@ help
 puts "Please enter a command:"
 user_response = gets.chomp
 
-  while user_response != "exit" do
-    break if user_response == "exit"
-          end
+  while user_response != "exit"
+    if user_response == "exit"
+      break
+    end
 
     if user_response == "help"
       help
