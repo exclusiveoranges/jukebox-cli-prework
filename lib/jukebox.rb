@@ -54,9 +54,6 @@ user_response = gets.chomp
 
   while user_response != "exit"
 
-    puts "Please enter a command:"
-    user_response = gets.chomp
-
     if user_response == "help"
       help
     end
@@ -69,6 +66,9 @@ user_response = gets.chomp
     if user_response == "exit"
         exit_jukebox
         break
+
+        puts "Please enter a command:"
+        user_response = gets.chomp
     end
   end
 end
