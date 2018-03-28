@@ -65,5 +65,4 @@ user_response = gets.chomp
     if user_response == "play"
       play(songs)
     end
-  end
-end 
+end
