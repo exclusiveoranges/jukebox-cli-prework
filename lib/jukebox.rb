@@ -62,9 +62,9 @@ user_response = gets.chomp
     end
     if user_response == "play"
       play(songs)
-    end 
-      if user_response == "exit"
+    end
+    if user_response == "exit"
         break
-      end
+    end
   end
 end
